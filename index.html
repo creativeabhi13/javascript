@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script>
+
+        // if we are declaring let for redeclarationallowed in case of var
+        var c = 50;
+        var c = "this is abhishek kumar"
+        console.log(c);
+
+
+
+        // if we are declaring let for redeclaration not allowed in case of let
+
+        let a = 34;
+        let b = 'this is javascript';
+        console.log(a, b);
+
+        //const  invalid assignment to const 'd' 
+        const d = 45;
+
+        console.log(d);
+
+
+        // simple calc
+
+        let v1 = 25;
+        let v2 = 10;
+        let add = v1 + v2;
+        let sub = v1 - v2;
+        let mul = v1 * v2;
+        var div = v1 / v2;
+
+        console.log("Addition is", v1, "Subtraction is ", sub, "Multiplication is ", mul, "Division is ", div);
+
+
+        //data types
+        // numbers
+        // objects
+        // Boolean-true or false
+        // string-
+        // undefined
+        // null
+
+        // definition of function
+        function hello() {
+            console.log("hello i am abhishek kumar from bihar ");
+        }
+        hello();
+        // object -we can give value in pair
+        let obja = {
+            e: 34,
+            f: "this is abhishek",
+
+            g: 4.5,
+            h: "ramu"
+
+        }
+
+        // to call obj we can use 
+        obja;
+        obja.e;  // to access eth object it will work like dictionary
+        // function inside object
+
+        let objb = {
+            e: 44,
+            f: "this is abhishek kr",
+            func: function myfunc(number) {
+                console.log("This is the ", +number);
+            },
+            g: 45.5,
+            h: "ramanujan"
+
+        }
+        // calling event and alert menu with confirmation
+        document.addEventListener("click", function click() {
+            console.log("clicked");
+            alert("hello");
+            let conf = confirm("Are you sure ?");
+            console.log(conf);
+        })
+        //substring  in javascript
+        let text = "Hello world!";
+        // slice 
+        let result = text.substring(1, 4);// it will fetch the the string between 1 to 4
+        console.log(text);
+        console.log(result);
+        // slice
+        let result1 = text.substring(2); // it will fetch the object after 2nd string
+        console.log(result1);
+
+
+        // array
+        let arr = [34, 21, 45];
+
+
+
+        // diff between normal and arrow function
+        // console.log(this);
+        function my(number) {
+            console.log("This number is " + this);
+        }
+        my();
+
+        let mobj = {
+            a: this,
+            myfunc: (number) => {
+                console.log("This is Abhishek Kumar" + this);
+            }
+
+        }
+        mobj.myfunc();
+        console.log(mobj.a);
+
+
+
+        // callback -it will invoke when one work is already done..it will used to not block the element
+
+        setTimeout(() => {
+            console.log("yay");
+        }, 3000);
+        console.log("i am script");// it will execute then above fn will callback
+//promises-it can be resolve or reject
+
+
+
+    </script>
+</head>
+
+<body>
+    <h1>Javascript for Begineer</h1>
+</body>
+
+</html>
