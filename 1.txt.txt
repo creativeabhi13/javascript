@@ -1,0 +1,53 @@
+VM1455:1 1. Charles Chaplin
+VM1455:1 2. Marlon Brando
+VM1455:1 3. Jack Nicholson
+VM1455:1 4. Daniel Day-Lewis
+VM1455:1 5. Meryl Streep
+VM1455:1 6. Tom Hanks
+VM1455:1 7. Mohanlal
+VM1455:1 8. Robert De Niro
+VM1455:1 9. Anthony Hopkins
+VM1455:1 10. Al Pacino
+VM1455:1 11. Leonardo DiCaprio
+VM1455:1 12. Joaquin Phoenix
+VM1455:1 13. Christoph Waltz
+VM1455:1 14. Kamal Haasan
+VM1455:1 15. Choi Min-sik
+VM1455:1 16. Gary Oldman
+VM1455:1 17. Heath Ledger
+VM1455:1 18. Javier Bardem
+VM1455:1 19. Mammootty
+VM1455:1 20. Russell Crowe
+VM1455:1 21. Anupam Kher
+VM1455:1 22. Christian Bale
+VM1455:1 23. Naseeruddin Shah
+VM1455:1 24. George Clooney
+VM1455:1 25. Sean Penn
+VM1455:1 26. Kevin Spacey
+VM1455:1 27. Johnny Depp
+VM1455:1 28. Sean Connery
+VM1455:1 29. Jennifer Lawrence
+VM1455:1 30. Morgan Freeman
+VM1455:1 31. Sandra Bullock
+VM1455:1 32. Clint Eastwood
+VM1455:1 33. Robin Williams
+VM1455:1 34. Benedict Cumberbatch
+VM1455:1 35. Tom Hiddleston
+VM1455:1 36. Denzel Washington
+VM1455:1 37. Amitabh Bachchan
+VM1455:1 38. Cate Blanchett
+VM1455:1 39. Bryan Cranston
+VM1455:1 40. Irrfan Khan
+VM1455:1 41. Jim Carrey
+VM1455:1 42. Dustin Hoffman
+VM1455:1 43. Nicolas Cage
+VM1455:1 44. Hugh Jackman
+VM1455:1 45. Adrien Brody
+VM1455:1 46. Edward Norton
+VM1455:1 47. Matt Damon
+VM1455:1 48. Brad Pitt
+VM1455:1 49. Samuel L. Jackson
+VM1455:1 50. Jake Gyllenhaal
+VM1455:1 51. Martin Freeman
+VM1455:1 52. Jared Leto
+VM1455:1 53. Thilakan
