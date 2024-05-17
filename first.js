@@ -1,4 +1,5 @@
 /*
+ chapter 1: Varibales and Data type
 Primitive Data Type:-
 Number,
 String ,
@@ -13,22 +14,22 @@ Arrays:-collection of same data type with index
 
 */
 
-let age=24;
-let name="Abhishek";
-istrue=true;
+let age = 24;
+let name = "Abhishek";
+istrue = true;
 let y;
-let z=null;
-let ab=Symbol("Hello Ji!");
+let z = null;
+let ab = Symbol("Hello Ji!");
 //objects 
-const student ={
-    name:"Abhishek",
-    age:20,
-    cgpa:8.5,
-    isPass:true,
+const student = {
+    name: "Abhishek",
+    age: 20,
+    cgpa: 8.5,
+    isPass: true,
 
 }
-student.age=student.age+1;
-student['cgpa']=student['cgpa']-0.5;
+student.age = student.age + 1;
+student['cgpa'] = student['cgpa'] - 0.5;
 // access objects in 2 ways
 console.log(student.age);
 console.log(student['cgpa']);
@@ -36,33 +37,35 @@ console.log(student.name);
 console.log(student['name']);
 
 var bb;
-bb=5;
-var bb=6;
-let c=6;
+bb = 5;
+var bb = 6;
+let c = 6;
 
-const product ={
-    name:"Ball Pen",
-    rating:4,
-    offer:5,
-    price:200
+const product = {
+    name: "Ball Pen",
+    rating: 4,
+    offer: 5,
+    price: 200
 }
 console.log(product);
 
-const profile ={
-    name:"Abhishek Kumar",
-    isFollow:false,
-    posts:200,
-    followers:10000,
-    following:2000,
-    bio:"Creativeabhi13 from Siwan BR",
+const profile = {
+    name: "Abhishek Kumar",
+    isFollow: false,
+    posts: 200,
+    followers: 10000,
+    following: 2000,
+    bio: "Creativeabhi13 from Siwan BR",
 
 }
 console.log(profile);
 
+// Chapter 2:Operators
+
 // Arithmetic Operators = there is operator which is used to do functionality for operands
 
-let v1=2;
-let v2=3;
+let v1 = 2;
+let v2 = 3;
 // console.log("v1 = ", v1 , " & v2 = ", v2 );
 // console.log("v1 + v2  =", v1+v2);
 // console.log("v2 - v1 =", v2-v1);
@@ -78,80 +81,78 @@ console.log("v1 =", v1);
 console.log("v1-- =", v1--);  // post decrement-first print then decrement 
 console.log("v1 =", v1);
 console.log("++v1 =", ++v1);  // pre increment-first increment then print
-console.log("v1 =", v1); 
+console.log("v1 =", v1);
 console.log("-v1 =", --v1);   // pre decrement- first decrement then print
 
 // Assignment Operators = to assign values
-a=1;
-a+=1;
-console.log("a =" ,a);
-a*=2;
-console.log("a =" ,a);
-a/=2;
-console.log("a =" ,a);
-a+=1;
-console.log("a =" ,a);
-a%=2;
-console.log("a =" ,a);
-a+=1;
-console.log("a =" ,a);
-a**=2;
-console.log("a =" ,a);
+a = 1;
+a += 1;
+console.log("a =", a);
+a *= 2;
+console.log("a =", a);
+a /= 2;
+console.log("a =", a);
+a += 1;
+console.log("a =", a);
+a %= 2;
+console.log("a =", a);
+a += 1;
+console.log("a =", a);
+a **= 2;
+console.log("a =", a);
 
 //Comparision Operators == , != , === , !== , > , >= , < , <= 
 
-a=2;
-b=5;
+a = 2;
+b = 5;
 
-console.log("a == b" ,a==b); // Equal to == :- it will check only value 
-console.log("a != b" ,a!=b); // Not Equal to != it will check only value
+console.log("a == b", a == b); // Equal to == :- it will check only value 
+console.log("a != b", a != b); // Not Equal to != it will check only value
 // when the number is like below it may be string we have to used strict version of equal to
-a=5;
-b="5";
-console.log("a === b" ,a=== b); //  Equal to & Type  === it will check value as well as type data
-console.log("a !== b" ,a!==b); // Type & Not Equal to !== it will check value as well as type of data
+a = 5;
+b = "5";
+console.log("a === b", a === b); //  Equal to & Type  === it will check value as well as type data
+console.log("a !== b", a !== b); // Type & Not Equal to !== it will check value as well as type of data
 
- // Logical Operators
+// Logical Operators
 // Logical && 
 // Logical || 
 // Logical !
 
-let d=6;
-let e=5;
-console.log("cond1 && cond2 = ", d>e && d===6);// logical &&
+let d = 6;
+let e = 5;
+console.log("cond1 && cond2 = ", d > e && d === 6);// logical &&
 
-let f=4;
-let g=6;
-console.log("cond1 || cond2 = ", g>f || g===5); // logical ||
-console.log(" !(f<g) = ", !(f<g));
+let f = 4;
+let g = 6;
+console.log("cond1 || cond2 = ", g > f || g === 5); // logical ||
+console.log(" !(f<g) = ", !(f < g));
 
 // Conditional Statements
 
-age=25;
-if(age > 18){
+age = 25;
+if (age > 18) {
     console.log("You Can Vote!");
 }
 else {
     console.log("You Cannot Vote");
 }
 
-let color="dark";
+let color = "dark";
 
-if(color==="dark")
-    {
-        console.log("dark");
-    }
-else if(color==="white")
-        {
-            console.log("white");
-        }
-else{
+if (color === "dark") {
+    console.log("dark");
+}
+else if (color === "white") {
+    console.log("white");
+}
+else {
     console.log("neither dark nor white");
 }
 
 // Ternary Operators
 // condition ? "True output" :"false output"
-let res=age > 18 ? "Adult" : "Not An Adult";
+let res = age > 18 ? "Adult" : "Not An Adult";
 console.log(res);
 
 // MDN DOCS
@@ -197,105 +198,3 @@ console.log(res);
 //     alert("Fail");
 // }
 
-
-// Loops and String
-// for loops 
-// for (let count=1;count<=5;count++ )
-//     {
-//         console.log("Mahi Hai to Mumkin Hain");
-//     }
-
-// sum of n number 
-let sum=0;
-var n=prompt("Enter a number");
-// for(initilization ; condition ; updation;)
-//     {
-// do work
-//     }
-for(let i=1;i<=n;i++)
-    {
-        sum+=i;
-    }
-console.log("Sum = ",sum);
-// infinite loop:-a loop that never end
-
-// for(let i=1;i>0;i++)
-// {
-//     console.log(i);
-// }
-// do while loop
-
-// intialization;
-// while(condition)
-
-// {
-//     dowork
-//     updation
-// }
-let i=1;
-sum=0;
-while(i<=n)
-    { 
-      
-sum+=i;
-i++
-    }
-    console.log("while sum=",sum);
-    // do while:atleast one time it will run
-// intialization;
-// do(condition)
-
-// {
-//     dowork
-//     updation
-// }while(condition);
-let j=1;
-sum=0;
-do
-    { 
-     
-        sum+=j;
-j++;
-    }while(j<=n);
-    console.log(sum);
-    // for-of loop 
-    // it will works for arrays and string datatypes
-    // for (let val of strvar)
-    //     {
-    //         do work
-    //     }
-    let str="AbhishekKumar";
-    let size=0;
-    for(val of str)
-        {
-            console.log("val= ",val);
-            size++;
-
-        }
-        console.log("string size", size);
-          // for-in loop 
-    // it will works for objects
-     // for (let key in objectsvar)
-    //     {
-    //         do work
-    //     }
-
-    let students={
-        name:"Abhishek",
-        gender:"M",
-        age:22,
-        isPass:true,
-    };
-
-    for(let key in students)
-        {
-            console.log("Object Key =", key, "| Value =", students[key] );
-      
-        }
-
-// Q1 print all even number from 0 to 100.
-for(let num=0;num<=100;num++)
-    {
-        if(num%2===0){
-        console.log("num=",num);}
-    }
