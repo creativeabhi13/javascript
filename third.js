@@ -1,6 +1,6 @@
 // Chapter 4: Arrays in Javscript
 // Collection of items with similar or disimilar data types
-// Create an Array: Lenear way :it is special type of object 
+// Create an Array: Lenear way :it is special type of object
 // array is mutable
 
 let Car = ["BMW", "Mercedes", "Hyundai", "Jeep"];
@@ -22,53 +22,50 @@ console.log(Car);
 
 // Looping Over an Array for loop
 for (let idx = 0; idx < marks.length; idx++) {
-    console.log(marks[idx]);
+  console.log(marks[idx]);
 }
 // for-of loop in array
 for (let mark of marks) {
-    console.log(mark);
+  console.log(mark);
 }
 // Practise question 1
 // using for loop
 let sum = 0;
 for (let idx = 0; idx < marks.length; idx++) {
-    sum += marks[idx];
+  sum += marks[idx];
 }
 console.log("Total Marks =", sum);
 console.log("Average Marks =", sum / marks.length);
 // using for-of loop
 sum = 0;
 for (let mark of marks) {
-    sum += mark;
+  sum += mark;
 }
 console.log("Total Marks =", sum);
 console.log("Average Marks =", sum / marks.length);
-
 
 // Practise question 2
 // using for-of loop
 let items = [250, 645, 300, 900, 50];
 let i = 0;
 for (let val of items) {
-    // console.log(`value at index ${i} = ${val} `);
-    let offer = val / 10;
-    items[i] = items[i] - offer;
-    console.log(`value after offer at index ${i} = ${items[i]} `);
-    i++
+  // console.log(`value at index ${i} = ${val} `);
+  let offer = val / 10;
+  items[i] = items[i] - offer;
+  console.log(`value after offer at index ${i} = ${items[i]} `);
+  i++;
 }
 
 // using for loop
 items = [250, 645, 300, 900, 50];
 for (let i = 0; i < items.length; i++) {
-    let offer = items[i] / 10;
-    items[i] = items[i] - offer;
-
-
+  let offer = items[i] / 10;
+  items[i] = items[i] - offer;
 }
 console.log(items);
 
 // arrays method in Javscript
-// push():add element in array at last 
+// push():add element in array at last
 // pop():delete element at end and return
 // toString():convert array to string
 let veggies = ["potato", "tomato", "onion", "apple"];
@@ -91,22 +88,22 @@ veggies.shift();
 console.log(veggies);
 
 // slice: return the piece of an array -slice(startindex,endindex)
-// splice: change the original array-splice(add,remove,replace) ->splic(strtindex,delcount,new element) 
-let S=veggies.slice(0,2);
+// splice: change the original array-splice(add,remove,replace) ->splic(strtindex,delcount,new element)
+let S = veggies.slice(0, 2);
 console.log(S);
-veggies.splice(1,1,"papaya");
+veggies.splice(1, 1, "papaya");
 console.log(veggies);
-veggies.splice(3,1,"watermelon","cucumber");
+veggies.splice(3, 1, "watermelon", "cucumber");
 console.log(veggies);
 
 // Practise Question
-let comapanies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+let comapanies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
 console.log(comapanies);
 comapanies.shift(); //a
 console.log(comapanies);
-comapanies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
-comapanies.splice(2,1,"Ola"); //b
+comapanies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+comapanies.splice(2, 1, "Ola"); //b
 console.log(comapanies);
-comapanies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
-comapanies.push("Amazon");//c
+comapanies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+comapanies.push("Amazon"); //c
 console.log(comapanies);

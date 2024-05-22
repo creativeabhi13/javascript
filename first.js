@@ -1,5 +1,9 @@
 /*
  chapter 1: Varibales and Data type
+
+ var :- variable can be re-declare and update and it is a global scope variable.
+ let :- varibale cannot be re-declare but can be update.A block scope variable.
+ const :-variable cannot be re-declare and update . A block scope variable. 
 Primitive Data Type:-
 Number,
 String ,
@@ -20,21 +24,20 @@ istrue = true;
 let y;
 let z = null;
 let ab = Symbol("Hello Ji!");
-//objects 
+//objects
 const student = {
-    name: "Abhishek",
-    age: 20,
-    cgpa: 8.5,
-    isPass: true,
-
-}
+  name: "Abhishek",
+  age: 20,
+  cgpa: 8.5,
+  isPass: true,
+};
 student.age = student.age + 1;
-student['cgpa'] = student['cgpa'] - 0.5;
+student["cgpa"] = student["cgpa"] - 0.5;
 // access objects in 2 ways
 console.log(student.age);
-console.log(student['cgpa']);
+console.log(student["cgpa"]);
 console.log(student.name);
-console.log(student['name']);
+console.log(student["name"]);
 
 var bb;
 bb = 5;
@@ -42,22 +45,21 @@ var bb = 6;
 let c = 6;
 
 const product = {
-    name: "Ball Pen",
-    rating: 4,
-    offer: 5,
-    price: 200
-}
+  name: "Ball Pen",
+  rating: 4,
+  offer: 5,
+  price: 200,
+};
 console.log(product);
 
 const profile = {
-    name: "Abhishek Kumar",
-    isFollow: false,
-    posts: 200,
-    followers: 10000,
-    following: 2000,
-    bio: "Creativeabhi13 from Siwan BR",
-
-}
+  name: "Abhishek Kumar",
+  isFollow: false,
+  posts: 200,
+  followers: 10000,
+  following: 2000,
+  bio: "Creativeabhi13 from Siwan BR",
+};
 console.log(profile);
 
 // Chapter 2:Operators
@@ -76,13 +78,13 @@ let v2 = 3;
 
 // Unary Operators
 
-console.log("v1++ =", v1++);   // post increment-first print then increment 
+console.log("v1++ =", v1++); // post increment-first print then increment
 console.log("v1 =", v1);
-console.log("v1-- =", v1--);  // post decrement-first print then decrement 
+console.log("v1-- =", v1--); // post decrement-first print then decrement
 console.log("v1 =", v1);
-console.log("++v1 =", ++v1);  // pre increment-first increment then print
+console.log("++v1 =", ++v1); // pre increment-first increment then print
 console.log("v1 =", v1);
-console.log("-v1 =", --v1);   // pre decrement- first decrement then print
+console.log("-v1 =", --v1); // pre decrement- first decrement then print
 
 // Assignment Operators = to assign values
 a = 1;
@@ -101,12 +103,12 @@ console.log("a =", a);
 a **= 2;
 console.log("a =", a);
 
-//Comparision Operators == , != , === , !== , > , >= , < , <= 
+//Comparision Operators == , != , === , !== , > , >= , < , <=
 
 a = 2;
 b = 5;
 
-console.log("a == b", a == b); // Equal to == :- it will check only value 
+console.log("a == b", a == b); // Equal to == :- it will check only value
 console.log("a != b", a != b); // Not Equal to != it will check only value
 // when the number is like below it may be string we have to used strict version of equal to
 a = 5;
@@ -115,13 +117,13 @@ console.log("a === b", a === b); //  Equal to & Type  === it will check value as
 console.log("a !== b", a !== b); // Type & Not Equal to !== it will check value as well as type of data
 
 // Logical Operators
-// Logical && 
-// Logical || 
+// Logical &&
+// Logical ||
 // Logical !
 
 let d = 6;
 let e = 5;
-console.log("cond1 && cond2 = ", d > e && d === 6);// logical &&
+console.log("cond1 && cond2 = ", d > e && d === 6); // logical &&
 
 let f = 4;
 let g = 6;
@@ -132,22 +134,19 @@ console.log(" !(f<g) = ", !(f < g));
 
 age = 25;
 if (age > 18) {
-    console.log("You Can Vote!");
-}
-else {
-    console.log("You Cannot Vote");
+  console.log("You Can Vote!");
+} else {
+  console.log("You Cannot Vote");
 }
 
 let color = "dark";
 
 if (color === "dark") {
-    console.log("dark");
-}
-else if (color === "white") {
-    console.log("white");
-}
-else {
-    console.log("neither dark nor white");
+  console.log("dark");
+} else if (color === "white") {
+  console.log("white");
+} else {
+  console.log("neither dark nor white");
 }
 
 // Ternary Operators
@@ -156,7 +155,6 @@ let res = age > 18 ? "Adult" : "Not An Adult";
 console.log(res);
 
 // MDN DOCS
-
 
 // Prompt - to take user input
 // question - Get a user input a number using promt("enter a number ").check if it is a multiple of 5 or not.
@@ -197,4 +195,3 @@ console.log(res);
 //     console.log("Fail");
 //     alert("Fail");
 // }
-
