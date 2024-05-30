@@ -6,7 +6,7 @@
 // alert("Page Loading.........");
 
 //Window  Object
-// The window object represnts an open window in a browser.it is a browser object(not javascript's ) & is automatically created by javascript.
+// The window object represents an open window in a browser.it is a browser object(not javascript's ) & is automatically created by javascript.
 // it is a global with lots of properties and method.
 
 // What is DOM?

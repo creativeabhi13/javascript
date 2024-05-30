@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+    border: 1px solid red;
+    color: whitesmoke;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color:white;
+    color: black;
+}
