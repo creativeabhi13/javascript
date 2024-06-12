@@ -26,6 +26,7 @@
 
 // console.dir-> print object ->properties, method // for object print
 // console.log-> print document->
+
 console.log(window.document);
 console.dir(window.document);
 console.log(document);
@@ -55,7 +56,7 @@ console.dir(heading);
 let heading1 = document.getElementsByClassName("heading1"); // h1,h3,h4 class from html // it will return class which is a html collection
 console.log(heading1); // html collection is very similar to an array.
 console.dir(heading1);
-// if there is no id exist then it will come with empty html collection.
+// if there is no class exist then it will come with empty html collection.
 
 // Selecting with tag
 let para = document.getElementsByTagName("p"); // p tag from html
